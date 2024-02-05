@@ -10,3 +10,4 @@ req.onload = () => {
   let population=res.filter((ele)=>ele.population <= 200000)
   let popul_name = population.map((ele,i)=>console.log(`${i+1}) ${ele.name.common} : ${ele.population.toLocaleString()}`))
 };
+

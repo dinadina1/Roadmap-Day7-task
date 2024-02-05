@@ -9,3 +9,4 @@ req.onload=()=>{
     let population=res.reduce((acc,ele)=>acc+ele.population,0)
     console.log(`Total Population for all Countries : ${population.toLocaleString()}`);
 }
+

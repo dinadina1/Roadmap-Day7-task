@@ -10,3 +10,4 @@ req.onload = () => {
   let country = res.filter((data) => data.region === "Asia" || data.continents[0] === "Asia");
   country.map((data,i) => console.log(`${i+1}) ${data.name.common}`));
 };
+

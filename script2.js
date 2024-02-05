@@ -11,3 +11,4 @@ req.onload = () => {
         console.log(`${i+1}) Name: ${element.name.common} \n   Capital: ${element.capital} \n   Flag: ${element.flags.png}`);
   });
 };
+
