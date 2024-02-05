@@ -6,10 +6,10 @@ req.open("GET", "https://restcountries.com/v3.1/all");
 req.send();
 req.onload=()=>{
     let res=JSON.parse(req.response);
-    console.log("These Countries using US Dollors..")
+    console.log("These Countries are using US Dollors..")
     res.forEach((element,i) => {
         if(element.currencies.USD){
-            console.log(`Country Name: ${element.name.common}`);
+            console.log(`${element.name.common}`);
         }
     });
 }
